@@ -23,9 +23,82 @@
 
         <title>Tech Gyan</title>
     </head>
+    <style>
+        .about-us div {
+            background: rgb(163, 196, 233);
+        }
+    </style>
 
 
-    <h1></h1>
+    <!--Login  Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Login to Tech Gyan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sign Up  Modal -->
+    <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignUpModalLabel">Get an Tech Gyan Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="cexampleInputPassword1" class="form-label">Confirm the Password</label>
+                            <input type="cpassword" class="form-control" id="cexampleInputPassword1">
+
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="Assets/Tech Gyan logo.png" alt="Logo is Not Loded"></a>
@@ -72,6 +145,35 @@
             </div>
         </div>
     </nav>
+    <section id="about-us" class="about-us section-bg-text-primary justify-content-center my-4">
+        <div class=" container ">
+
+            <div class="section-title ">
+                <h2>About us</h2>
+                <p>Welcome to Tech Gyan, your number one source for all things [product]. We're dedicated to giving you the very best of [product], with a focus on [store characteristic 1], [store characteristic 2], [store characteristic 3].</p>
+            </div>
+
+            <div class="row content ">
+                <div class="col-md-5 order-1 order-md-2 ">
+                    <img src="Assets/About Us.jpg " class="img-fluid ">
+                </div>
+                <div class="col-md-7 pt-5 order-2 order-md-1 ">
+                    <h3>Our Mission and Vision</h3>
+                    <div>
+                        <h5>Mission</h5>
+                        <p>Founded in [year] by [founder name], Tech Gyan has come a long way from its beginnings in [starting location]. When [founder name] first started out, [his/her/their] passion for [brand message - e.g. "eco-friendly cleaning products
+                            "] drove them to [action: quit day job, do tons of research, etc.] so that Tech Gyan can offer you [competitive differentiator - e.g. "the world 's most advanced toothbrush"]. We now serve customers all over [place - town,
+                            country, the world], and are thrilled that we're able to turn our passion into [my/our] own website.</p>
+                    </div>
+                    <div>
+                        <h5>Vision</h5>
+                        <p>To be the safest, most progressive Technology Provider, relentless in the pursuit of Client and employee excellence.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <!--  Footer; choose one of the two! -->
     <div class="container ">
         <footer class="py-3 my-4 ">
@@ -103,6 +205,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
     -->
 
+
+
+</body>
+
+</html>
 
 
 </body>
