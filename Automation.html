@@ -7,18 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="index.html" type="C:\Users\dell\OneDrive\Desktop\Tech Gyan\Assets\Tech Logo.jpg">
     <link rel="icon" href="C:\Users\dell\OneDrive\Desktop\Tech Gyan\Assets\Tech Logo.jpg" sizes="32x32">
-    <title>Tech Gyan</title>
+    <title>Tech Gyan || Manual Testing</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-        .carousel-item img {
-            width: 100%;
-            height: 300px !important;
-        }
-    </style>
 </head>
 
 <body>
+
     <!--Login  Modal -->
     <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -51,7 +46,6 @@
             </div>
         </div>
     </div>
-
 
     <!--Sign Up  Modal -->
     <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
@@ -160,53 +154,110 @@
         </div>
     </nav>
     <!-- Navbar End -->
-    <div class="row mb-2 my-4">
-        <div class="col-md-6 ">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
-                <div class="col p-4 d-flex flex-column position-static ">
-                    <strong class="d-inline-block mb-2 text-primary ">Software Testing</strong>
-                    <h3 class="mb-0 ">Manual Testing</h3>
-                    <div class="mb-1 text-muted ">Nov 12</div>
-                    <p class="card-text mb-auto ">To test any application without any automated tool that is called a manual testing</p>
-                    <a href="Manual.html" class="stretched-link ">Read More</a>
-                </div>
-                <div class="col-auto d-none d-lg-block ">
-                    <img class="bd-placeholder-img " width="200 " height="250 " src="Assets/Manual Testing.png " alt=" ">
 
-                </div>
-            </div>
+    <!-- Content section -->
+    <div class="container justify-content-center my-4 py-4 bg-light">
+        <h1>What is Automated-Testing..?</h1>
+        <p>To test the any application without any manual navigation that is called automation testing.
+        </p>
+        <h2>Automation Testing Using Selenium Webdriver....</h2>
+        <p>Selenium Web Driver: using selenium web driver we can perform Automation Testing on Web Applications. Selenium web driver is open source tool. And we can customized the script easily. And many languages to support with selenium web driver. We
+            can perform multiples script languages with selenium web driver. Like:
+            <li>Java</li>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>Perl</li>
+        </p>
+
+        <p>In selenium we have web elements, In this web elements we can perform action by using locators provided by selenium.</p>
+        <h3>Selenium provided 8 types of locators-</h3>
+        <ol>
+            <li>Xpath</li>
+            <li>CSS</li>
+            <li>Class Name</li>
+            <li>Link Text</li>
+            <li>ID Name</li>
+            <li>Partial link text</li>
+            <li>Tag Name</li>
+        </ol>
+
+        <div clas="  my-4 py-4">
+            <h4>X path is also two types.</h4>
         </div>
-        <div class="row mb-2 ">
-            <div class="col-md-6 ">
-                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
-                    <div class="col p-4 d-flex flex-column position-static ">
-                        <strong class="d-inline-block mb-2 text-primary ">Software Testing</strong>
-                        <h3 class="mb-0 ">Automation Testing</h3>
-                        <div class="mb-1 text-muted ">Nov 12</div>
-                        <p class="card-text mb-auto ">Automation Testing is a software testing technique that performs using special automated testing software tools to execute a test case suite ...</p>
-                        <a href="Automation.html" class="stretched-link ">Read More</a>
-                    </div>
-                    <div class="col-auto d-none d-lg-block ">
-                        <img class="bd-placeholder-img " width="200 " height="250 " src="Assets/Automated-Testing.webp " alt=" ">
-                    </div>
-                </div>
-            </div>
-            <!--  Footer; choose one of the two! -->
-            <div class="container ">
-                <footer class="py-3 my-4 ">
-                    <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
-                        <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Home</a></li>
-                        <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Features</a></li>
-                        <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Pricing</a></li>
-                        <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">FAQs</a></li>
-                        <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">About</a></li>
-                    </ul>
-                    <p class="text-center text-muted ">© 2021-2022 Tech Gyan, Inc</p>
-                </footer>
-            </div>
+        <li>Relative x path: if x path is started with // then we can say it is relative x path, and relative x path we can create with 1 and more attributes like: combination of class name and id like that. We create dynamic x path approx. 13 types. We have
+            around 13 types of methods we can use and create dynamic x path.</li>
+        <li>Absolute x path: if x path is started with / then we can say it is absolute x path.</li>
 
+        <h1>What is Selenium Webdriver....?</h1>
+        <p>Selenium web driver is interface. Multiples class implements in a selenium web driver. Like:</p>
+        <li>Chrome driver</li>
+        <li>Mozilla</li>
+        <li>Internet explorer</li>
+        <li>Safari</li>
+        <li>etc......</li>
+        <h1>What is TestNG in Automation-testing...?</h1>
+        <p>Test-NG is a next generation framework, it is inspire by J-unit, Test-Ng is provide some predefine classes, interfaces and methods, that is help to automate web applications or to perform action over the web elements. Test-Ng provides some annotations
+            that will be help to perform one action’s to repeated way. And also achieve code reusability.</p>
+        <h5>There are some TestNG annotations like.....</h5>
+        <ol>
+            <li>Before Suite</li>
+            <li>Before Test</li>
+            <li>Before Class</li>
+            <li>Before Method</li>
+            <li>Test</li>
+            <li>Ater Method</li>
+            <li>After Class</li>
+            <li>After Test</li>
+            <li>After Suite</li>
+        </ol>
+        <p>Using Test-Ng we can run parallel testing, cross browser testing and group by testing, but that was not possible in J-unit. </p>
+        <h6>Test-NG Report</h6>
+        <p>Test-Ng is providing reports that will be created automatically. In this reports we check which test case passed or which test cases is failed. Test-NG provide listeners, using this listeners we customized the reports. </p>
+        <h1>How many Types of assertions in Test-NG...?</h1>
+        <p> Test-NG framework provides assertions; In Test-NG we have 2 types of assertions....</p>
+        <li>Hard Assert:-
+            <p>If actual and expected result will not match then test case immediate fail. And fail reason is automatic impact in HTML reports. In Hard Assert have all the methods are statics.</p>
+        </li>
+        <li>Soft Assert (Verify):-
+            <p> If actual and expected result will not match then test cases will not fail till assert all () statement not executed. In soft assert all the methods are non-static. And same fail reason will be impact on html reports.</p>
+        </li>
+        <h1>Wait in Selenium...</h1>
+        <p>Dynamic Wait: Selenium we have 3 types-
+            <li>Implicit wait:-
+                <p>Implicit wait to use for wait for the loading time of a page. It will wait to maximum time, if in given between time page will be load then go to the further process, if page will not load then throw the time out exception.</p>
+            </li>
+            <li>Explicit wait:-
+                <p>Explicit to perform on particular conditions. Like- to be check visibility of element, element to be clickable, alert is present like that. In Explicit throw the multiple exceptions like- element not intractable, element is visible, alert
+                    is not present.</p>
+            </li>
+            <li>Fluent wait:-
+                <p>Fluent wait is used to define maximum time for the web driver to wait for a condition, using fluent wait to frequency with which we want to check a condition before throwing the exceptions. It checks for the web elements at regular intervals
+                    until the elements is found or timeout happens.</p>
+            </li>
+            Selenium we perform the wait for loading time of the page, wait for the conditions and wait the condition in polling time interval.
+        </p>
+    </div>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Content section end -->
+
+    <!--  Footer; choose one of the two! -->
+    <div class="container ">
+        <footer class="py-3 my-4 ">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+                <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Home</a></li>
+                <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Features</a></li>
+                <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Pricing</a></li>
+                <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">FAQs</a></li>
+                <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">About</a></li>
+            </ul>
+            <p class="text-center text-muted ">© 2021-2022 Tech Gyan, Inc</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+
 
 </body>
 
