@@ -1,0 +1,15 @@
+
+.nav-item a:hover{
+
+color :darkblue;
+background: green;
+
+}
+
+.nav-item a {
+
+    
+font-family: "Times New Roman", Times, serif;
+
+}
+
