@@ -13,7 +13,7 @@
     <meta name="og:postal-code" content="245101">
     <meta name="og:country-name" content="india">
     <link rel="stylesheet" href="./assets/style/index.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta name="robots" content="max-image-preview:large">
 
@@ -76,8 +76,8 @@
 
 <body>
 
-    <header class="container-fluid bg-white border-bottom">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+    <header class="container-fluid bg-white border-bottom bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light container">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
                     <img class="d-block img-fluid" src="./assets/img/loho.png" alt="Tech Gyan">
@@ -88,11 +88,11 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-dark"  aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link active text-dark" onclick="btn" aria-current="page" href="./index.html">Home</a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item  dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services 
                      </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -106,11 +106,11 @@
 
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html ">Contact Us</a>
+                            <a class="nav-link active" href="contact.html ">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -118,58 +118,56 @@
         </nav>
     </header>
 
-     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-      <div class="carousel-indicators">
-         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0"></button>
-         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="active"></button>
-         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"></button>
-      </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"></button>
+        </div>
 
-      <div class="carousel-inner">
-         <div class="carousel-item active carousel-item-start" data-bs-interval="5000">
-            <div class="slider-container">
-               <div class="slide-bg slide-bg-1"></div>
-               <div class="carousel-caption">
-                  <h5>Software Testing</h5>
-                  <p>Learn Software Testing with Tech Gyan.</p>
-                  <a class="btn btn-outline-light" href="post.html">Learn More</a>
-               </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active carousel-item-start" data-bs-interval="5000">
+                <div class="slider-container">
+                    <div class="slide-bg slide-bg-1"></div>
+                    <div class="carousel-caption">
+                        <h5>Software Testing</h5>
+                        <p>Learn Software Testing with Tech Gyan.</p>
+                        <a class="btn btn-outline-light" href="post.html">Learn More</a>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="carousel-item carousel-item-next carousel-item-start" data-bs-interval="5000">
-            <div class="slider-container">
-               <div class="slide-bg slide-bg-2"></div>
-               <div class="carousel-caption">
-                  <h5>Welcome to the Tech Gyan</h5>
-                  <p>Tech Gyan is a Learning Website which help you to learn Technical skills.</p>
-                  <a class="btn btn-outline-light" href="https://www.facebook.com/techgyanwithtarun">Learn More</a>
-               </div>
+            <div class="carousel-item carousel-item-next carousel-item-start" data-bs-interval="5000">
+                <div class="slider-container">
+                    <div class="slide-bg slide-bg-2"></div>
+                    <div class="carousel-caption">
+                        <h5>Welcome to the Tech Gyan</h5>
+                        <p>Tech Gyan is a Learning Website which help you to learn Technical skills.</p>
+                        <a class="btn btn-outline-light" href="https://www.facebook.com/techgyanwithtarun">Learn More</a>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="carousel-item" data-bs-interval="5000">
-            <div class="slider-container">
-               <div class="slide-bg slide-bg-3"></div>
-               <div class="carousel-caption">
-                  <h5>Resume or CV</h5>
-                  <p>If you want a perfasonal resume so Tech Gayn is the right Place.</p>
-                  <a class="btn btn-outline-light" href="contact.html">Learn More</a>
-               </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <div class="slider-container">
+                    <div class="slide-bg slide-bg-3"></div>
+                    <div class="carousel-caption">
+                        <h5>Resume or CV</h5>
+                        <p>If you want a perfasonal resume so Tech Gayn is the right Place.</p>
+                        <a class="btn btn-outline-light" href="contact.html">Learn More</a>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
+        </div>
 
-      <button class="carousel-control-prev carousel-control-btns" type="button" data-bs-target="#carouselExampleFade"
-         data-bs-slide="prev">
+        <button class="carousel-control-prev carousel-control-btns" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
          <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next carousel-control-btns" type="button" data-bs-target="#carouselExampleFade"
-         data-bs-slide="next">
+        <button class="carousel-control-next carousel-control-btns" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
          <span class="carousel-control-next-icon" aria-hidden="true"></span>
          <span class="visually-hidden">Next</span>
       </button>
-   </div>
+    </div>
     <div class="container my-4 post-container ">
         <div class="row ">
             <div class="col-md-3 my-3 ">
@@ -177,7 +175,7 @@
                     <img src="./assets/img/manual-testing.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
                         <h5 class="card-title " "><a href="./post.html ">Manual Testing</a></h5>
-                            <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                            <p class="card-text ">To test any application without any automated tool that is called a manual testing.</p>
                 </div>
             </div>
             </div>
@@ -186,7 +184,7 @@
                     <img src="./assets/img/automation-testing.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
                         <h5 class="card-title " "><a href="# ">Automation Testing</a></h5>
-                        <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                        <p class="card-text ">To test the any application without any manual navigation that is called automation testing.</p>
                     </div>
                 </div>
             </div>
@@ -195,7 +193,7 @@
                     <img src="./assets/img/web-designing.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
                         <h5 class="card-title " "><a href="# ">Web Designing</a></h5>
-                        <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                        <p class="card-text ">Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, </p>
                     </div>
                 </div>
             </div>
@@ -204,43 +202,48 @@
                     <img src="./assets/img/seo.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
                         <h5 class="card-title " "><a href="# ">SEO</a></h5>
-                        <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                        <p class="card-text ">SEO stands for ‘Search Engine Optimization’. It’s the practice of optimizing your web pages to make them reach a high position </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 my-3 ">
                 <div class="card border-0 ">
-                    <img src="./assets/img/manual-testing.jpg " class="card-img ">
+                    <img src="./assets/img/Core-java.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
-                        <h5 class="card-title " "><a href="# ">Manual Testing</a></h5>
-                        <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                        <h5 class="card-title " "><a href="# ">Core Java</a></h5>
+                        <p class="card-text ">Java programming language that one can use for developing or creating a general-purpose app. </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 my-3 ">
                 <div class="card border-0 ">
-                    <img src="./assets/img/automation-testing.jpg " class="card-img ">
+                    <img src="./assets/img/api-testing.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
-                        <h5 class="card-title " "><a href="# ">Automation Testing</a></h5>
-                        <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                        <h5 class="card-title " ">
+                            <a href="# ">API Testing</a>
+                        </h5>
+                        <p class="card-text ">Application programming Interface- API is used to make the connection between two servers.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 my-3 ">
                 <div class="card border-0 ">
-                    <img src="./assets/img/web-designing.jpg " class="card-img ">
+                    <img src="./assets/img/Selenium.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
-                        <h5 class="card-title " "><a href="# ">Web Designing</a></h5>
-                        <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                        <h5 class="card-title " "><a href="# ">Selenium Webdriver</a></h5>
+                        <p class="card-text ">Selenium Web Driver: using selenium web driver we can perform Automation Testing on Web Applications. </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 my-3 ">
                 <div class="card border-0 ">
-                    <img src="./assets/img/seo.jpg " class="card-img ">
+                    <img src="./assets/img/framwork.jpg " class="card-img ">
                     <div class="card-body p-0 py-2 ">
-                        <h5 class="card-title " "><a href="# ">SEO</a></h5>
-                        <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis quibusdam culpa ipsum repellat totam vitae amet similique ducimus?</p>
+                        <h5 class="card-title " ">
+                            <a href="# ">Framework</a>
+                        </h5>
+                        <p class="card-text "> A programming framework provides an established communication pattern to build the desired software.</p>
                     </div>
                 </div>
             </div>
@@ -248,18 +251,19 @@
     </div>
 
     <div class="social-media-links-container">
-      <a href="https://www.facebook.com/techgyanwithtarun" class="fa fa-facebook"></a>
-      <a href="https://www.google.com/search?q=Tech+Gyan+Hapur&oq=tech+gyan+hapur&aqs=chrome.0.69i59j69i60l2.7174j0j7&sourceid=chrome&ie=UTF-8" class="fa fa-google"></a>
-      <a href="#" class="fa fa-youtube"></a>
-      <a href="#" class="fa fa-instagram"></a>
-   </div>
+        <a href="https://www.facebook.com/techgyanwithtarun" class="fa fa-facebook"></a>
+        <a href="https://www.google.com/search?q=Tech+Gyan+Hapur&oq=tech+gyan+hapur&aqs=chrome.0.69i59j69i60l2.7174j0j7&sourceid=chrome&ie=UTF-8" class="fa fa-google"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
 
     <footer class="container-fluid py-5 bg-light footer ">
         <div class="container py-5 ">
             <div class="row ">
                 <div class="col-lg-3 mb-3 ">
                     <a class="mb-2 h3 d-block link-dark text-decoration-none " href="/ ">Tech Gyan</a>
-                    <p class="small text-muted ">Our platform helps you to learn new Software Testing skills. Our Services like SEO, Web Designing, Manual Testing, Automation Testing, Interview Questions,  Team has been providing Software Testing skills, We also make CV and Resume for any kind of profile...</p>
+                    <p class="small text-muted ">Our platform helps you to learn new Software Testing skills. Our Services like SEO, Web Designing, Manual Testing, Automation Testing, Interview Questions, Team has been providing Software Testing skills, We also make CV and Resume
+                        for any kind of profile...</p>
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1 mb-3 ">
                     <h5>Links</h5>

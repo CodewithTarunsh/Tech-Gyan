@@ -1,15 +1,17 @@
-
-.nav-item a:hover{
-
-color :darkblue;
-background: green;
-
+.nav-item a:hover {
+    color: darkblue;
+    background: skyblue;
 }
 
 .nav-item a {
-
-    
-font-family: "Times New Roman", Times, serif;
-
+    font-family: "Times New Roman", Times, serif;
 }
 
+.navbarDropdown li {
+    text-emphasis-color: black;
+}
+
+.nav-link:active {
+    background: red;
+    text-decoration: none;
+}
